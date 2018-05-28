@@ -1,0 +1,11 @@
+{
+    "event": "existence",
+    "url": "https://api.thingspeak.com/update",
+    "requestType": "POST",
+    "noDefaults": true,
+    "rejectUnauthorized": true,
+    "form": {
+        "api_key": "3BQ4BUGYGDGFEIPE",
+        "field2": "{{{PARTICLE_EVENT_VALUE}}}"
+    }
+}

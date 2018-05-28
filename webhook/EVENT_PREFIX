@@ -1,0 +1,17 @@
+{
+    "event": "EVENT_PREFIX",
+    "url": "https://api.mailgun.net/v3/sandbox48796830920c4033a466e770c737d8f3.mailgun.org/messages",
+    "requestType": "POST",
+    "noDefaults": true,
+    "rejectUnauthorized": false,
+    "form": {
+        "to": "adjb@deakin.edu.au",
+        "from": "adjb <adjb@sandbox48796830920c4033a466e770c737d8f3.mailgun.org\r\n>",
+        "subject": "Notification",
+        "text": "The cat is having food"
+    },
+    "auth": {
+        "username": "api",
+        "password": "key-a4096885dea0784a63b97c91876d4544"
+    }
+}
